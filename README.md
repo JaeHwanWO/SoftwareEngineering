@@ -9,7 +9,8 @@
     * 조성규, 박민기 - Simularity Anaylysis
 
 ## Convention
-    * README.md 작성 방식은 GITHUB의 standard_readme[https://github.com/RichardLitt/standard-readme/blob/master/spec.md#specification] 방식을 사용한다.
+    * README.md 작성 방식은 GITHUB의 [standard_readme](https://github.com/RichardLitt/standard-readme/blob/master/spec.md#specification) 방식을 사용한다.
+    * MarkDown은 [이문서](https://heropy.blog/2017/09/30/markdown/) 를 참조한다. 
 
     * 우리 프로젝트는 7개의 브랜치로 나누어져 있다. 
       * main: 이 README를 작성하기 위한 브랜치이다. 다른용도로는 사용하지 않는다. 
