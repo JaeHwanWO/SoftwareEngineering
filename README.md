@@ -12,10 +12,14 @@
 
       * function balanceOf(address _owner) external view returns (uint256);
         * address를 인자로 받아서, address가 가지고 있는 token의 갯수를 리턴한다. 
+
+## 4. Diagram
+![cryptomusicstructure](https://user-images.githubusercontent.com/80820556/114187056-8b7dae80-9982-11eb-8e56-21e6d21a865d.jpg)
+
         
 
 
-## 4. 개발 환경 정의
+## 5. 개발 환경 정의
   * programming language: Solidity
   * 
 
