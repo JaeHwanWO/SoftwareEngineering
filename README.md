@@ -18,7 +18,7 @@
    * 2. 유사도 분석 후, 해당 수치가 절대값을 넘어가는 비교 대상 음원들을 서버로 전달한다.
    * 3. 음악의 장르를 예측/제공한다.
 
-![Simularity_Analyzer]()
+![Simularity_Analyzer](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/module.jpg)
 
 ## Analysis
 * MFCC
