@@ -7,6 +7,10 @@
     * 나원후, 정재민, 조예진 - NFT token generation
     * 김현석, 조민수 - Community
     * 조성규, 박민기 - Simularity Anaylysis
+  https://github.com/JaeHwanWO/SoftwareEngineering/tree/ntf_generator
+  https://github.com/JaeHwanWO/SoftwareEngineering/tree/community
+  https://github.com/JaeHwanWO/SoftwareEngineering/tree/simularity_analysis
+  
 
 ## Convention
     * README.md 작성 방식은 GITHUB의 [standard_readme](https://github.com/RichardLitt/standard-readme/blob/master/spec.md#specification) 방식을 사용한다.
