@@ -19,6 +19,7 @@
     1. 악의적인 표절을 한 음원도 시스템에 등록이 되어 저작권 침해를 한 창작자를 알 수 있어야 한다.
 
 
+## Brief System Requirements
 | Identifier | Size | Reequirement |
 |---|:---:|:---:|
 | REQ-1 | 1 | 아직 가입하지 않은 유저는 음원 제공자(musician) 또는 청취자(listener)로 회원가입할 수 있다. |
