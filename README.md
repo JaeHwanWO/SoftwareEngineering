@@ -32,11 +32,7 @@
 
       * problem_statement: purpose, scope, objective, succesive criteria 정의
       * RAD(requirement_analysis_document): 요구명세서 브랜치이다. 
-      * system_model
-        * Use case model
-        * domain model
-        * user interface mockups
 
-      * ntf_generator: work product by 나원후, 정재민, 조예진
-      * community: work product by 김현석, 조민수
-      * simularity_analysis: 조성규, 박민기
+      * ntf_generator: work product by 나원후, 정재민, 조예진 - domain model, use case model
+      * community: work product by 김현석, 조민수 - domain model, use case model
+      * simularity_analysis: 조성규, 박민기 - domain model, use case model
