@@ -15,9 +15,9 @@
   이 프로젝트의 의의는, 음악가들의 공유한 창작물의 저작권을 보호함에 있다. 블록체인 중 NFT의 위변조가 불가능한 특성을 살려서, originality를 보장할 수 있다. 사용자는 표절에 대해서 걱정하지 않고 자신의 저작물을 보호받을 수 있다. 또한, 유사도 검출 서버에 의해서 새로운 저작물이 다른 창작자의 창작물을 표절한것인지 알 수있고, 서버의 기준에 의해서 등록될지 여부를 결정한다. 
 
 ## SubGroups
-    * [나원후, 정재민, 조예진 - NFT token generation](https://github.com/JaeHwanWO/SoftwareEngineering/tree/ntf_generator)
-    * 김현석, 조민수 - Community
-    * 조성규, 박민기 - Simularity Anaylysis
+   - [나원후, 정재민, 조예진 - NFT token generation](https://github.com/JaeHwanWO/SoftwareEngineering/tree/ntf_generator)
+   - [김현석, 조민수 - Community](https://github.com/JaeHwanWO/SoftwareEngineering/tree/community)
+   - [조성규, 박민기 - Simularity Anaylysis](https://github.com/JaeHwanWO/SoftwareEngineering/tree/simularity_analysis)
   https://github.com/JaeHwanWO/SoftwareEngineering/tree/ntf_generator
   https://github.com/JaeHwanWO/SoftwareEngineering/tree/community
   https://github.com/JaeHwanWO/SoftwareEngineering/tree/simularity_analysis
