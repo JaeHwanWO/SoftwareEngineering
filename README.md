@@ -24,6 +24,34 @@
   * 
 
 
-## 5. 참고 자료
+## 6. 참고 자료
 * [Jumping into Solidity](https://anallergytoanalogy.medium.com/jumping-into-solidity-the-erc721-standard-part-1-e25b67fc91f3)
 * [ERC-721 토큰 설계 방법론](https://brunch.co.kr/@curg/20)
+
+# USE CASE UC-9
+
+| Related Requirements | REQ2, REQ3 |
+|---|:---:|
+| Initiating Actor                                                 | Any of: music uploader, plagiarist                                                                                                                                                                                       |
+| Actor's goal                                                     | 자신의 음원을 System에 등록해 저작권을 보호받을 수 있다.                                                                                                                                                                                      |
+| Participating Actors                                             | Chain, Analyzer, other music uploader                                                                                                                                                                                    |
+| Preconditions                                                    | music uploader/plagiarist가 System에 로그인한 상태여야한다.                                        System이 사용자에게 접근 가능한 UI를 보여준다.                                                                                                    |
+| Postconditions                                                   | Chain에 음원이 등록된다.                                             사용자의 음원의 저작권이 보호됨을 알리는 토큰을 발행, 제공한다.                                                                                                                        |
+| Flow of Events for Main Success Scenario                         |                                                                                                                                                                                                                          |
+| →                                                                | 1. System에서 음원 등록 버튼을 누른다.                                                                                                                                                                                               |
+| ←                                                                | 2. music uploader/plagiarist 에게 음원 등록 UI를 보여준다.            Ex) 음원 이름, 음원 파일, 장르, 음원에 대한 설명, 태그, 가사, 앨범 아트                                                                                                                |
+| →                                                                | 3. music uploader/plagiarist이 UI에 세부사항을 적고 System에 음원을 제출한다.                                                                                                                                                             |
+|                                                                  | 4. UC-10과정 수행한다.                                                                                                                                                                                                         |
+| →                                                                | 5. music uploader이 변조하지 않은 패킷을 포장해서 System에 업로드한다.                                                                                                                                                                       |
+| ←                                                                | 6. 50%이상의 other music uploader가 패킷이 위변조가 없다고 판단하여 music uploader 에게 음원을 chain에 등록할 수 있는 권한을 준다                                                                                                                           |
+| →                                                                | 7. music uploader가 chain에 음원을 등록한다.                                                                                                                                                                                      |
+| ←                                                                | 8. 그 음원에 대한 토큰을 music uploader가 받는다.                                                                                                                                                                                     |
+| Flow of Events for Extensions (Alternate Scenarios)              |                                                                                                                                                                                                                          |
+| 3a.  music uploader/plagiarist가 음원 이름, 음원 파일, 장르에 대한 설명을 적지 않는다. |                                                                                                                                                                                                                          |
+| ←                                                                | 1. UI의 upload 버튼이 비활성화 된다.                                                                                                                                                                                               |
+| ←                                                                | 2. System이 (amusic uploader/plagiarist가 적지 않은 세부사항을 기록하여 music uploader/plagiarist에게 알린다.                                                                                                                                |
+| 5a. music uploader가 변조한 패킷을 포장해서 System에 업로드한다.                  |                                                                                                                                                                                                                          |
+| ←                                                                | 1. 50%미만의 other music uploader가 패킷이 위변조가 없다고 판단하여 music uploader 에게 음원을 chain에 등록할 수 있는 권한을 주지 않는다.                                                                                                                      |
+| 6a. 50%미만의 other music uploader가 패킷이 위변조가 없다고 판단한다.              |                                                                                                                                                                                                                          |
+| ←                                                                | 1. music uploader 에게 음원을 chain에 등록할 수 있는 권한을 주지 않는다.                                                                                                                                                                     |
+ 
