@@ -48,8 +48,8 @@
 | 5a. 유사도가 기준치 n보다 높다.                                |                                                      |
 | ←                                                   | 1. 이는 표절로 판단하여 결과를 전달한다.                             |
 
-
-
+## Domain Model for UC 9 , 10 
+![DMforUC10](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/DMforuc10.png)
 ## 참고 문헌
 <blockquote>
 https://scienceon.kisti.re.kr/commons/util/originalView.do?cn=JAKO201034049320557&oCn=JAKO201034049320557&dbt=JAKO&journal=NJOU00291367
