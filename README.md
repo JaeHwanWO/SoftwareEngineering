@@ -31,7 +31,7 @@
 | USE CASE UC-10                                      | Analyze                                              |
 |-----------------------------------------------------|------------------------------------------------------|
 | Related Requirements                                | REQ2, REQ3                                           |
-| Initiating Actor                                    | Music file                                           |
+| Initiating Actor                                    | Any of: Music uploader                               |
 | Actor's goal                                        | 음원의 유사도를 비교분석한다.                          |
 | Participating Actors                                | Database, ProcessViewer                              |
 | Preconditions                                       | Database에 비교할 음원이 존재해야한다. 음원이 분류될 장르가 명시되어 있어야한다.    |
@@ -45,7 +45,6 @@
 | Flow of Events for Extensions (Alternate Scenarios) |                                                      |
 | 3a. 장르가 혼합되어 특정 장르로 명확히 판단할수 없다.                    |                                                      |
 | ←                                                   | 1. Analyzer를 통한 장르분석 결과값이 두번째로 높은 장르를 적용한다.          |
-|                                                     |                                                      |
 | 5a. 유사도가 기준치 n보다 높다.                                |                                                      |
 | ←                                                   | 1. 이는 표절로 판단하여 결과를 전달한다.                             |
 
