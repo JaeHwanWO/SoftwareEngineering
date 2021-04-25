@@ -90,3 +90,13 @@ _ 유저들이 실제로 여러가지 기능들을 이용할 수 있는 커뮤�
 | Postconditions                           | Database에 좋아요의 정보가 저장된다.                                                                   |
 | Flow of Events for Main Success Scenario |                                                                                            |
 | ←                                        | 1. 성공 여부에 따라 좋아요 버튼의 색깔과 like count 수를 변경하여 UI에 표시한다.                                      |
+| USE CASE UC-3                            | Share                           |
+|------------------------------------------|---------------------------------|
+| Related Requirements                     | REQ11                           |
+| Initiating Actor                         | Any of: user                    |
+| Actor's goal                             | 해당 음악을 다른 유저에게 전달한다.            |
+| Participating Actors                     | Post                            |
+| Preconditions                            | 공유 버튼을 누른다.                     |
+| Postconditions                           | 사용자 클립보드에 해당 URL이 복사된다.         |
+| Flow of Events for Main Success Scenario |                                 |
+| ←                                        | 1. 사용자 클립보드에 해당 게시물의 URL이 복사된다. |
