@@ -48,7 +48,8 @@
 | 6a. 50%미만의 other music uploader가 패킷이 위변조가 없다고 판단한다.              |                                                                                                                                                                                                                          |
 | ←                                                                | 1. music uploader 에게 음원을 chain에 등록할 수 있는 권한을 주지 않는다.
 
- ## Domain Model for UC-9, 10
+
+## Domain Model for UC-9, 10
  ![domainmodel_9_10](https://user-images.githubusercontent.com/80820556/115983979-886bfa80-a5df-11eb-979b-2da7b252bb82.jpg)
 
 ## UC Diagram for NFT Generator
