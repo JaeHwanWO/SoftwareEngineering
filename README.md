@@ -28,7 +28,7 @@
 * [Jumping into Solidity](https://anallergytoanalogy.medium.com/jumping-into-solidity-the-erc721-standard-part-1-e25b67fc91f3)
 * [ERC-721 토큰 설계 방법론](https://brunch.co.kr/@curg/20)
 
-# USE CASE UC-9
+## USE CASE UC-9
 
 | Related Requirements | REQ2, REQ3 |
 |---|:---:|
@@ -53,5 +53,14 @@
 | 5a. music uploader가 변조한 패킷을 포장해서 System에 업로드한다.                  |                                                                                                                                                                                                                          |
 | ←                                                                | 1. 50%미만의 other music uploader가 패킷이 위변조가 없다고 판단하여 music uploader 에게 음원을 chain에 등록할 수 있는 권한을 주지 않는다.                                                                                                                      |
 | 6a. 50%미만의 other music uploader가 패킷이 위변조가 없다고 판단한다.              |                                                                                                                                                                                                                          |
-| ←                                                                | 1. music uploader 에게 음원을 chain에 등록할 수 있는 권한을 주지 않는다.                                                                                                                                                                     |
- 
+| ←                                                                | 1. music uploader 에게 음원을 chain에 등록할 수 있는 권한을 주지 않는다.
+
+  
+    
+      
+
+ ## Domain Model for UC-9, 10
+ ![domainmodel_9_10](https://user-images.githubusercontent.com/80820556/115983979-886bfa80-a5df-11eb-979b-2da7b252bb82.jpg)
+
+## UC Diagram for NFT Generator
+![UseCase_TokenGenerator](https://user-images.githubusercontent.com/80820556/115984035-e3055680-a5df-11eb-86b1-297fc8cb4417.jpg)
