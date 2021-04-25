@@ -57,7 +57,7 @@ _ 유저들이 실제로 여러가지 기능들을 이용할 수 있는 커뮤�
     ** 특정 기준에 따라 음악들을 추천해주는 리스트이다 ( 추천수가 많은 아티스트의 최신음악, 최근 조회수가 급격히 올라가는 음악 )
     // 알고리즘을 통한 유저들 맞춤 리스트를 제공한다 
 
-
+# USE CASE
 | USE CASE UC-1                                       | SignIn                                                                     |
 |-----------------------------------------------------|----------------------------------------------------------------------------|
 | Related Requirements                                | REQ1                                                                       |
@@ -90,6 +90,7 @@ _ 유저들이 실제로 여러가지 기능들을 이용할 수 있는 커뮤�
 | Postconditions                           | Database에 좋아요의 정보가 저장된다.                                                                   |
 | Flow of Events for Main Success Scenario |                                                                                            |
 | ←                                        | 1. 성공 여부에 따라 좋아요 버튼의 색깔과 like count 수를 변경하여 UI에 표시한다.                                      |
+
 | USE CASE UC-3                            | Share                           |
 |------------------------------------------|---------------------------------|
 | Related Requirements                     | REQ11                           |
@@ -100,3 +101,84 @@ _ 유저들이 실제로 여러가지 기능들을 이용할 수 있는 커뮤�
 | Postconditions                           | 사용자 클립보드에 해당 URL이 복사된다.         |
 | Flow of Events for Main Success Scenario |                                 |
 | ←                                        | 1. 사용자 클립보드에 해당 게시물의 URL이 복사된다. |
+
+| USE CASE UC-4                                       | Search                                                                    |
+|-----------------------------------------------------|---------------------------------------------------------------------------|
+| Related Requirements                                | REQ5                                                                      |
+| Initiating Actor                                    | Any of: user                                                              |
+| Actor's goal                                        | 사용자가 검색한 게시물을 보여준다.                                                       |
+| Participating Actors                                | Post                                                                      |
+| Preconditions                                       | Database에 음원 이름과 가수 list가 있어야한다. 사용자가 유효한 input을 넣고 search button을 클릭한다.  |
+| Postconditions                                      | 이름, 가수와 일치하는 음원 목록을 보여준다.                                                 |
+| Flow of Events for Main Success Scenario            |                                                                           |
+| →                                                   | 1. System은 해당 text로 목록의 이름과 가수들을 찾아서 매칭된 전체 목록을 보내준다.                     |
+| ←                                                   | 2. 사용자는 목록에서 선택하여 해당 게시물로 이동할 수 있다.                                       |
+| Flow of Events for Extensions (Alternate Scenarios) |                                                                           |
+| 2a. 검색 결과가 없는 경우                                    |                                                                           |
+| ←                                                   | 1. data가 없다는 alert를 띄워 준다.                                                |
+
+| USE CASE UC-5                            | Playlist                                           |
+|------------------------------------------|----------------------------------------------------|
+| Related Requirements                     | REQ12                                              |
+| Initiating Actor                         | Any of: user                                       |
+| Actor's goal                             | 원하는 음악이 들어간 플레이리스트를 생성한다.                          |
+| Participating Actors                     | Post                                               |
+| Preconditions                            | 사용자가 음악들을 선택한다. DB에 요청한 음원이 있어야한다. 사용자가 생성버튼을 누른다. |
+| Postconditions                           | 플레이 리스트를 생성한다                                      |
+| Flow of Events for Main Success Scenario |                                                    |
+| ←                                        | 1. 시스템이 해당 음악을 사용자의 플레이리스트에 추가한다.                  |
+
+| USE CASE UC-6                                       | Comment                             |
+|-----------------------------------------------------|-------------------------------------|
+| Related Requirements                                | REQ8, REQ9                          |
+| Initiating Actor                                    | Any of: user, post                  |
+| Actor's goal                                        | 사용자가 게시글에 comment를 추가한다.            |
+| Participating Actors                                | Post                                |
+| Preconditions                                       | 사용자가 댓글을 입력한다. 사용자가 comment버튼을 누른다. |
+| Postconditions                                      | 해당 post에 입력된 comment를 추가한다.         |
+| Flow of Events for Main Success Scenario            |                                     |
+| →                                                   | 1. System이 user가 작성한 comment를 추가한다  |
+| Flow of Events for Extensions (Alternate Scenarios) |                                     |
+
+| USE CASE UC-7                            | Discuss                    |
+|------------------------------------------|----------------------------|
+| Related Requirements                     | REQ8, REQ9                 |
+| Initiating Actor                         | Any of: user               |
+| Actor's goal                             | 사용자가 토론을 진행할 수 있다.         |
+| Participating Actors                     | Post                       |
+| Preconditions                            | 사용자가 보낸 신고가 누적된다.          |
+| Postconditions                           | 사용자가 Discuss 를 볼 수 있다.     |
+| Flow of Events for Main Success Scenario |                            |
+| →                                        | 1. System이 새로운 post를 생성한다. |
+| ←                                        | 2. Alert를 띄워 사용자들에게 보여준다.  |
+
+| USE CASE UC-12                                      | Report                                 |
+|-----------------------------------------------------|----------------------------------------|
+| Related Requirements                                | REQ-6, REQ-7, REQ-8                    |
+| Initiating Actor                                    | Any of: user                           |
+| Actor's goal                                        | 부적절한 게시물을 신고한다                         |
+| Participating Actors                                | Post                                   |
+| Preconditions                                       | 사용자가 해당 음악을 선택한다. 사용자가 신고버튼을 누른다.      |
+| Postconditions                                      | Database에 신고의 정보가 저장된다.                |
+| Flow of Events for Main Success Scenario            |                                        |
+| →                                                   | System은 해당 음악을 post에 추가시키고 token을 할당한다 |
+| Flow of Events for Extensions (Alternate Scenarios) |                                        |
+| 1a. 적절하지 않은 신고사유인 경우                                |                                        |
+| →                                                   | 해당 음악에 token을 추가하지 않는다                 |
+
+# DOMAIN MODEL
+![DM_UC-1](https://user-images.githubusercontent.com/75295665/115984625-1e555480-a5e3-11eb-82a0-1616186f8896.png)
+![DM_UC-2](https://user-images.githubusercontent.com/75295665/115984627-231a0880-a5e3-11eb-8f04-9da25617a671.png)
+![DM_UC-3](https://user-images.githubusercontent.com/75295665/115984631-244b3580-a5e3-11eb-99b6-f7b5e6fe7a2d.png)
+![DM_UC-4](https://user-images.githubusercontent.com/75295665/115984632-2614f900-a5e3-11eb-84aa-f05533ccf00e.png)
+![DM_UC-5](https://user-images.githubusercontent.com/75295665/115984633-27462600-a5e3-11eb-8a1f-8a6d989720b9.png)
+![DM_UC-6](https://user-images.githubusercontent.com/75295665/115984637-2b724380-a5e3-11eb-96bf-4ae805925176.png)
+![DM_UC-7](https://user-images.githubusercontent.com/75295665/115984639-2ca37080-a5e3-11eb-98ba-b1880f45cf0d.png)
+![DM_UC-8](https://user-images.githubusercontent.com/75295665/115984641-2dd49d80-a5e3-11eb-89a9-bc2dda1b6216.png)
+![DM_UC-11](https://user-images.githubusercontent.com/75295665/115984644-31682480-a5e3-11eb-90d7-3ca5d3b7f8b9.png)
+![DM_UC-12](https://user-images.githubusercontent.com/75295665/115984645-32995180-a5e3-11eb-9297-465cee731e9b.png)
+
+# UC Diagram for Community
+![제목 없음](https://user-images.githubusercontent.com/75295665/115984648-34631500-a5e3-11eb-9a35-6de2bad0007d.png)
+
+
