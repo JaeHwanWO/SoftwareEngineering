@@ -56,3 +56,37 @@ _ 유저들이 실제로 여러가지 기능들을 이용할 수 있는 커뮤�
   4. 추천 리스트
     ** 특정 기준에 따라 음악들을 추천해주는 리스트이다 ( 추천수가 많은 아티스트의 최신음악, 최근 조회수가 급격히 올라가는 음악 )
     // 알고리즘을 통한 유저들 맞춤 리스트를 제공한다 
+
+
+| USE CASE UC-1                                       | SignIn                                                                     |
+|-----------------------------------------------------|----------------------------------------------------------------------------|
+| Related Requirements                                | REQ1                                                                       |
+| Initiating Actor                                    | Any of: musician, listener                                                 |
+| Actor's goal                                        | 시스템에 접근할 수 있는 권한 획득                                                        |
+| Participating Actors                                | Post                                                                       |
+| Preconditions                                       | Database에 사용자의 정보가 있어야한다. System이 사용자에게 접근 가능한 UI를 보여준다.                   |
+| Postconditions                                      | Database에 사용자의 정보가 저장된다.                                                   |
+| Flow of Events for Main Success Scenario            |                                                                            |
+| ←                                                   | 1. System이 user에게 로그인 UI를 띄워준다.                                            |
+| →                                                   | 2. user(musician / listener)가 유효한 ID와 PW를 입력한다.                            |
+| ←                                                   | 3. 시스템이 (a)정보가 유효함을 인증하고, (b)user(musician/listener)에게 로그인이 성공했음을 알린다.     |
+|                                                     |                                                                            |
+| Flow of Events for Extensions (Alternate Scenarios) |                                                                            |
+| 2a. user(musician / listener)가 유효하지 않은 정보를 입력한다.    |                                                                            |
+| ←                                                   | 1. System이 (a)오류를 감지하고 (b)user(musician/listener)에게 회원가입 버튼을 띄워준다.         |
+| 2a.1a 유저가 회원가입 버튼을 클릭한다.                            |                                                                            |
+| ←                                                   | 1. System이 user에게 회원가입 UI를 띄워준다.                                           |
+| →                                                   | 2. user로 부터 유효한 ID와 PW를 입력한다.                                              |
+| ←                                                   | 3. 시스템이 (a)정보가 유효함을 인증하고, (b) database에 저장하고, (c) user에게 회원가입이 성공했음을 알린다.  |
+
+
+| USE CASE UC-2                            | Like                                                                                       |
+|------------------------------------------|--------------------------------------------------------------------------------------------|
+| Related Requirements                     | REQ5                                                                                       |
+| Initiating Actor                         | Any of: User                                                                               |
+| Actor's goal                             | 해당 음악에 Like 등록                                                                             |
+| Participating Actors                     | Post                                                                                       |
+| Preconditions                            | Database에 음원 정보가 있어야 한다.  System이 user에게 좋아요 버튼과 좋아요 개수를 표시하는 UI를 보여준다. 사용자가 좋아요 버튼을 누른다.  |
+| Postconditions                           | Database에 좋아요의 정보가 저장된다.                                                                   |
+| Flow of Events for Main Success Scenario |                                                                                            |
+| ←                                        | 1. 성공 여부에 따라 좋아요 버튼의 색깔과 like count 수를 변경하여 UI에 표시한다.                                      |
