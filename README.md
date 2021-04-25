@@ -64,7 +64,7 @@
 
 ## Requirement per Use-Case
 
-| Requirement | PW | UC1 | UC1 | UC1 | UC1 | UC1 | UC1 | UC1 | UC1 | UC1 | UC1 |
+| Requirement | PW | UC1 | UC2 | UC3 | UC4 | UC5 | UC6 | UC7 | UC8 | UC9 | UC10 |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | req1 |1 |O||||||||||
 | req2 | 5|||||||||O|O|
