@@ -24,7 +24,7 @@
 ## USE CASE UC-9
 
 | Related Requirements | REQ2, REQ3 |
-|---|:---:|
+|---|:---|
 | Initiating Actor                                                 | Any of: music uploader, plagiarist                                                                                                                                                                                       |
 | Actor's goal                                                     | 자신의 음원을 System에 등록해 저작권을 보호받을 수 있다.                                                                                                                                                                                      |
 | Participating Actors                                             | Chain, Analyzer, other music uploader                                                                                                                                                                                    |
