@@ -18,15 +18,12 @@
    - [나원후, 정재민, 조예진 - NFT token generation](https://github.com/JaeHwanWO/SoftwareEngineering/tree/ntf_generator)
    - [김현석, 조민수 - Community](https://github.com/JaeHwanWO/SoftwareEngineering/tree/community)
    - [조성규, 박민기 - Simularity Anaylysis](https://github.com/JaeHwanWO/SoftwareEngineering/tree/simularity_analysis)
-  https://github.com/JaeHwanWO/SoftwareEngineering/tree/ntf_generator
-  https://github.com/JaeHwanWO/SoftwareEngineering/tree/community
-  https://github.com/JaeHwanWO/SoftwareEngineering/tree/simularity_analysis
   
 ## Convention
-    * README.md 작성 방식은 GITHUB의 [standard_readme](https://github.com/RichardLitt/standard-readme/blob/master/spec.md#specification) 방식을 사용한다.
-    * MarkDown은 [이문서](https://heropy.blog/2017/09/30/markdown/) 를 참조한다. 
+   - README.md 작성 방식은 GITHUB의 [standard_readme](https://github.com/RichardLitt/standard-readme/blob/master/spec.md#specification) 방식을 사용한다.
+   - MarkDown은 [이문서](https://heropy.blog/2017/09/30/markdown/) 를 참조한다. 
 
-    * 우리 프로젝트는 7개의 브랜치로 나누어져 있다. 
+   - 우리 프로젝트는 7개의 브랜치로 나누어져 있다. 
       * main: 이 README를 작성하기 위한 브랜치이다. 다른용도로는 사용하지 않는다. 
       * meeting_log: 전체 zoom/대면 미팅 시 작성하는 회의록을 보관하는 브랜치이다. 
 
