@@ -24,12 +24,12 @@
    - MarkDown은 [이문서](https://heropy.blog/2017/09/30/markdown/) 를 참조한다. 
 
    - 우리 프로젝트는 7개의 브랜치로 나누어져 있다. 
-      * main: 이 README를 작성하기 위한 브랜치이다. 다른용도로는 사용하지 않는다. 
-      * meeting_log: 전체 zoom/대면 미팅 시 작성하는 회의록을 보관하는 브랜치이다. 
+      * [main](https://github.com/JaeHwanWO/SoftwareEngineering): 이 README를 작성하기 위한 브랜치이다. 다른용도로는 사용하지 않는다. 
+      * [meeting_log](https://github.com/JaeHwanWO/SoftwareEngineering/tree/meeting_log): 전체 zoom/대면 미팅 시 작성하는 회의록을 보관하는 브랜치이다. 
 
-      * problem_statement: purpose, scope, objective, succesive criteria 정의
-      * RAD(requirement_analysis_document): 요구명세서 브랜치이다. 
+      * [problem_statement](https://github.com/JaeHwanWO/SoftwareEngineering/tree/problem_statement): purpose, scope, objective, succesive criteria 정의
+      * [RAD](https://github.com/JaeHwanWO/SoftwareEngineering/tree/RAD(requirement_analysis_document))(requirement_analysis_document): 요구명세서 브랜치이다. 
 
-      * ntf_generator: work product by 나원후, 정재민, 조예진 - domain model, use case model
-      * community: work product by 김현석, 조민수 - domain model, use case model
-      * simularity_analysis: 조성규, 박민기 - domain model, use case model
+      * [ntf_generator](https://github.com/JaeHwanWO/SoftwareEngineering/tree/ntf_generator): work product by 나원후, 정재민, 조예진 - domain model, use case model
+      * [community](https://github.com/JaeHwanWO/SoftwareEngineering/tree/community): work product by 김현석, 조민수 - domain model, use case model
+      * [simularity_analysis](https://github.com/JaeHwanWO/SoftwareEngineering/tree/simularity_analysis): 조성규, 박민기 - domain model, use case model
