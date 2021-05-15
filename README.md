@@ -70,7 +70,7 @@
 | Melody |            Compare the Melody with two provided music part                   |
 | MR |             Compare the MR with two provided music part             |
 | Lyrics |             Compare the lyrics with two provided music part               |
-| Result |     Combine the result of melody, MR, lyrics with a computed weight. After that, compare the result with given standard n |
+| Result |     Combine the result of melody, MR, lyrics with a computed weight. After that, compare the result with given standard n and add the music to the list if the percentage exceeds n |
 
 ## Sequence Diagram for Simularity Analyzer
 
