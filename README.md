@@ -57,8 +57,7 @@
 ## Domain Model for UC 9 & 10 
 ![DMforUC10](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/DMforuc10.png)
 ### Domain Model for UC 10
-![UC10Dmodel](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/UC10Dmodel.png)
-
+![UC10Dmodel-1](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/UC10Dmodel-1.png)
 
 ## Sequence Diagram for Simularity Analyzer
 
