@@ -61,6 +61,8 @@
 
 ## Sequence Diagram for Simularity Analyzer
 
+![SeqD1](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/SeqD1.jpeg)
+
 
 
 ## 참고 문헌
