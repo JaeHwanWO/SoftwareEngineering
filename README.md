@@ -19,7 +19,7 @@
    * 2. 유사도 분석 후, 해당 수치가 절대값을 넘어가는 비교 대상 음원들을 서버로 전달한다.
    * 3. 음악의 장르를 예측/제공한다.
 
-![Simularity_Analyzer](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/module.jpg)
+![Simularity_Analyzer](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/module.jpg)
 
 ## Analysis
 * MFCC
@@ -52,10 +52,12 @@
 
 
 ## UC Diagram for Simularity Analyzer
-![UC for simularityAnalyzer](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/31.PNG)
+![UC for simularityAnalyzer](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/31.PNG)
 
-## Domain Model for UC 9 , 10 
-![DMforUC10](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/DMforuc10.png)
+## Domain Model for UC 9 & 10 
+![DMforUC10](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/DMforuc10.png)
+### Domain Model for UC 10
+![UC10Dmodel](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/UC10Dmodel.png)
 
 ## 참고 문헌
 <blockquote>
