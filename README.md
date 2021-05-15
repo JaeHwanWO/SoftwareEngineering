@@ -63,7 +63,13 @@
 
 ![SeqDiagram1](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/SeqDiagram1.png)
 
+## Variation of Sequence Diagram
 
+![Var1](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/variation1.jpg)
+![Var2](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/variation2.jpg)
+
+## Class Diagram for Simularity Analyzer
+![ClassDiagram](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/Class%20Diagram.jpg)
 
 ## 참고 문헌
 <blockquote>
