@@ -66,11 +66,11 @@
 | Genre |             analyzes the genre of given source and alert if the genre doesn't match with user input                  |
 | BP |            provides the standard value for analyzing. It managed as object to use flexibly               |
 | DB |            contains the source of music classified by genre                |
-| Seperate  |                                          |
-| Melody |                               |
-| MR |                           |
-| Lyrics |                            |
-| Result |                            |
+| Seperate  |           Seperate the music into melody, MR, lyrics part                               |
+| Melody |            Compare the Melody with two provided music part                   |
+| MR |             Compare the MR with two provided music part             |
+| Lyrics |             Compare the lyrics with two provided music part               |
+| Result |     Combine the result of melody, MR, lyrics with a computed weight. After that, compare the result with given standard n |
 
 ## Sequence Diagram for Simularity Analyzer
 
