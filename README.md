@@ -54,3 +54,22 @@
 
 ## UC Diagram for NFT Generator
 ![UseCase_TokenGenerator](https://user-images.githubusercontent.com/80820556/115984035-e3055680-a5df-11eb-86b1-297fc8cb4417.jpg)
+
+## Object Sequence Diagrams for NFT Generator
+### draft
+![NFTGENERATOR_OSD](https://user-images.githubusercontent.com/80820556/118351086-ccc23900-b594-11eb-9d58-e7fb1edf2cfe.jpg)
+
+### specification
+![NFTGENERATOR_OSD_2](https://user-images.githubusercontent.com/80820556/118351089-d186ed00-b594-11eb-888e-c2b3cd5c5ca7.jpg)
+
+![NFTGENERATOR_OSD_3](https://user-images.githubusercontent.com/80820556/118351072-c207a400-b594-11eb-9063-e59b7f724fda.jpg)
+
+### final product
+![NFTGENERATOR_OSD_4](https://user-images.githubusercontent.com/80820556/118351095-d6e43780-b594-11eb-8d07-11fa19770ab1.jpg)
+
+
+
+## Class Diagram for NFT Generator
+![NFTGENERATOR_ClassDiagram](https://user-images.githubusercontent.com/80820556/118351059-aac8b680-b594-11eb-8bfe-87f9efcd7163.jpeg)
+
+
