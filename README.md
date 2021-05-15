@@ -59,6 +59,19 @@
 ### Domain Model for UC 10
 ![UC10Dmodel-1](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/UC10Dmodel-1.png)
 
+## Simple Summary of Sequence Diagram
+| Name                                     | Function                                              |
+|-----------------------------------------------------|------------------------------------------------------|
+| Controller  |                                          |
+| Genre |                               |
+| BP |                           |
+| DB |                            |
+| Seperate  |                                          |
+| Melody |                               |
+| MR |                           |
+| Lyrics |                            |
+| Result |                            |
+
 ## Sequence Diagram for Simularity Analyzer
 
 ![SeqDiagram1](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/SeqDiagram1.png)
