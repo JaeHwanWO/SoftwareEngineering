@@ -62,10 +62,10 @@
 ## Simple Summary of Sequence Diagram
 | Name                                     | Function                                              |
 |-----------------------------------------------------|------------------------------------------------------|
-| Controller  |                                          |
-| Genre |                               |
-| BP |                           |
-| DB |                            |
+| Controller  |                    provides music source for analyzing and get the result of analysis                      |
+| Genre |             analyzes the genre of given source and alert if the genre doesn't match with user input                  |
+| BP |            provides the standard value for analyzing. It managed as object to use flexibly               |
+| DB |            contains the source of music classified by genre                |
 | Seperate  |                                          |
 | Melody |                               |
 | MR |                           |
