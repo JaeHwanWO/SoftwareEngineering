@@ -59,6 +59,11 @@
 ### Domain Model for UC 10
 ![UC10Dmodel](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/UC10Dmodel.png)
 
+
+## Sequence Diagram for Simularity Analyzer
+
+
+
 ## 참고 문헌
 <blockquote>
 https://scienceon.kisti.re.kr/commons/util/originalView.do?cn=JAKO201034049320557&oCn=JAKO201034049320557&dbt=JAKO&journal=NJOU00291367
