@@ -1,0 +1,13 @@
+!-- ======= Footer ======= --
+        footer id=footer class=border-1 border-top border-primary
+            div class=container-fluid py-4
+                div class=copyright
+                    &copy; Copyright strongspanBlogoboxspanstrong. All Rights Reserved
+                div
+                div class=credits
+                    Designed by a href=httpsbisabos.comBisabosa
+                div
+            div
+        footer
+        !-- End Footer --
+        script src=assetsjsbootstrap.bundle.min.jsscript
