@@ -84,6 +84,13 @@
 ## Class Diagram for Simularity Analyzer
 ![ClassDiagram](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/Class%20Diagram.jpg)
 
+## Demo Play
+![Structure](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/Structure.jpg)
+Local DB
+![DB](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/LocalDB.PNG)
+Analysis Result
+![Result](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/Result.PNG)
+
 ## 참고 문헌
 <blockquote>
 https://scienceon.kisti.re.kr/commons/util/originalView.do?cn=JAKO201034049320557&oCn=JAKO201034049320557&dbt=JAKO&journal=NJOU00291367
