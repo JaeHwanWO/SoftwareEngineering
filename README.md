@@ -86,6 +86,8 @@
 
 ## Demo Play
 ![Structure](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/Structure.jpg)
+![DemoRes](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/demores1.PNG)
+![DemoRes2](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/demores2.PNG)
 Local DB
 ![DB](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/LocalDB.PNG)
 Analysis Result
