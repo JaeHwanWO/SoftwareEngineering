@@ -90,7 +90,7 @@
 ![DemoRes2](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/demores2.png)
 ## Local DB
 ![DB](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/LocalDB.PNG)
-Analysis Result
+## Analysis Result
 ![Result](https://github.com/JaeHwanWO/SoftwareEngineering/blob/simularity_analysis/Images/Result.PNG)
 
 ## 참고 문헌
