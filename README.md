@@ -223,7 +223,7 @@ REPORT 와 DISCUSS에 공통적인 부분을 찾기도 하였고 DISCUSS의 PREC
 - REPORT & DISCUSS
 바탕으로 그린 Class Diagram이다.
 
-* Demo
+# Demo
 > main
 <img width="959" alt="main" src="https://user-images.githubusercontent.com/75295665/120929380-c9e5de80-c723-11eb-9553-0cd5026f868a.png">
 
