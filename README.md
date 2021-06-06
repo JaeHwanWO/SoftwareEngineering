@@ -223,3 +223,20 @@ REPORT 와 DISCUSS에 공통적인 부분을 찾기도 하였고 DISCUSS의 PREC
 - REPORT & DISCUSS
 바탕으로 그린 Class Diagram이다.
 
+* Demo
+> main
+<img width="959" alt="main" src="https://user-images.githubusercontent.com/75295665/120929380-c9e5de80-c723-11eb-9553-0cd5026f868a.png">
+
+> login 
+<img width="956" alt="signin" src="https://user-images.githubusercontent.com/75295665/120929397-db2eeb00-c723-11eb-86ec-088099de87fa.png">
+
+
+> musicinfo
+<img width="960" alt="musicinfo_1" src="https://user-images.githubusercontent.com/75295665/120929409-e4b85300-c723-11eb-96e1-d17fb763d9de.png">
+
+<img width="960" alt="musicinfo_2" src="https://user-images.githubusercontent.com/75295665/120929410-e5e98000-c723-11eb-84ce-d2c74f99ea79.png">
+
+> report
+<img width="959" alt="report" src="https://user-images.githubusercontent.com/75295665/120929421-ed108e00-c723-11eb-819e-5b086f4382fd.png">
+
+
