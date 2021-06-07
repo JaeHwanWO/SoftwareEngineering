@@ -179,11 +179,9 @@ _ 유저들이 실제로 여러가지 기능들을 이용할 수 있는 커뮤�
 ![DM_UC-12](https://user-images.githubusercontent.com/75295665/115984645-32995180-a5e3-11eb-9297-465cee731e9b.png)
 
 # UC Diagram for Community
-![제목 없음](https://user-images.githubusercontent.com/75295665/115984648-34631500-a5e3-11eb-9a35-6de2bad0007d.png)
 
 우선 우리 프로젝트의 주된 목표이자 기능인 REPORT와 DISCUSS 클래스에 주목을 하여 작성을 하였다. 
 그리고 SIGNIN을 기반으로 작동되어야하기 때문에 SIGNIN까지 총 3개의 USERCASE에 맞춰서 진행하였다.
-![20210513_153202](https://user-images.githubusercontent.com/75295665/118364855-36623780-b5d5-11eb-8946-1f4d16982ba0.jpg)
 초기 모델이다. 모두 단순한 기능만 작동하도록 하였다. 
 SIGNIN같은 경우 입력한 INFO가 USERSTORAGE에 있는 지 확인하고 있으면 setValid를 하여 권한을 주는 기능
 REPORT는 해당음악의 MUSICINFO에 접근하여 reportcount를 올리고 reportcount가 1이면 새로운 POST를 만드는 것.
@@ -194,18 +192,11 @@ DISCUSS는 discuss를 실행하면 checker가 DB에 접근해 reportcount의 수
 3.	DISCUSS에서는 위의 REPORT처럼 Alert의 기준을 객체화 시키고 각 상황에 따른 Alert를 구현하는 기능 
 의 개선점을 찾았다.
 
-
-![20210515_215953](https://user-images.githubusercontent.com/75295665/118364884-4d088e80-b5d5-11eb-98f7-e44e0afd8b3e.jpg)
-![20210515_220034](https://user-images.githubusercontent.com/75295665/118364885-4da12500-b5d5-11eb-8c01-88b9fa8938f9.jpg)
-![a](https://user-images.githubusercontent.com/75295665/118364905-6dd0e400-b5d5-11eb-84b5-963afed5c466.jpg)
 1번째 수정모델이다.
 1번요구(USERINFO)는 alt와 numofAttempts, denyAttempts를 이용하여 구현하였다.
 2번요구, 3번요구는 공통으로 BP 클래스를 생성하여 변수를 넘겨주었고
 3번 요구에서는 받아오는 변수에 따라 alt를 사용하였다.
 그리고 2번째 회의를 거쳤다.
-![report](https://user-images.githubusercontent.com/75295665/118449513-3164cb80-b72e-11eb-8c49-01b081b4cf02.jpg)
-![discuss](https://user-images.githubusercontent.com/75295665/118449520-332e8f00-b72e-11eb-8af3-8fc14fd17aa3.jpg)
-
 
 2번째 수정모델이다
 REPORT 와 DISCUSS에 공통적인 부분을 찾기도 하였고 DISCUSS의 PRECONDITION이 REPORT의 발생인 점을 감안하여 두개를 하나로 합치기로 결정하였다. POST를 생성하는 기능은 POST객체에서 하도록 하였고(createPOST), 또한 POST가 계속 생성되는 문제점이 있어 기준을 넘어서는 것에 관해서는 단지 POST내용을 업데이트 하는 것으로 결정하였다. (updatePOST)
